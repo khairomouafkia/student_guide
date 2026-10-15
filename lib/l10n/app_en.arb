@@ -1,0 +1,639 @@
+{
+  "@@locale": "en",
+  "appName": "Student Guide",
+  "signIn": "Sign in",
+  "adminSignIn": "Administration sign in",
+  "universityEmail": "University email",
+  "registrationNumber": "Registration number",
+  "password": "Password",
+  "forgotPassword": "Forgot password?",
+  "rememberMe": "Remember me",
+  "logout": "Log out",
+  "welcomeUser": "Welcome, {name}",
+  "@welcomeUser": {
+    "placeholders": {
+      "name": {
+        "type": "String"
+      }
+    }
+  },
+  "services": "Services",
+  "restaurant": "Restaurant",
+  "transport": "Transport",
+  "activities": "Activities",
+  "residence": "Residence",
+  "health": "Health",
+  "library": "Library",
+  "complaints": "Complaints",
+  "notifications": "Notifications",
+  "profile": "Profile",
+  "home": "Home",
+  "dashboard": "Dashboard",
+  "settings": "Settings",
+  "darkMode": "Dark mode",
+  "language": "Language",
+  "retry": "Retry",
+  "genericError": "Something went wrong. Please try again.",
+  "networkError": "No connection to the server.",
+  "emptyTitle": "Nothing here yet",
+  "requiredField": "This field is required",
+  "invalidEmail": "Enter a valid email",
+  "passwordTooShort": "At least 8 characters",
+  "resetEmailSent": "If the account exists, a reset email was sent",
+  "markAllRead": "Mark all as read",
+  "pendingComplaints": "Pending complaints",
+  "libraryReservations": "Library reservations",
+  "mealReservation": "Next meal",
+  "upcomingEvents": "Upcoming events",
+  "nextBus": "Next bus",
+  "noneYet": "None",
+  "university": "University",
+  "faculty": "Faculty",
+  "major": "Major",
+  "studyYear": "Study year",
+  "residenceLabel": "Residence",
+  "fullName": "Full name",
+  "unreadNotifications": "Unread notifications",
+  "offlineData": "Showing saved data",
+  "reserve": "Reserve",
+  "cancelReservation": "Cancel reservation",
+  "cancelConfirmTitle": "Cancel this reservation?",
+  "cancelConfirmBody": "You can only cancel until the reservation deadline.",
+  "reserveSuccess": "Meal reserved",
+  "cancelSuccess": "Reservation cancelled",
+  "deadlineLabel": "Reserve before {date}",
+  "@deadlineLabel": {
+    "placeholders": {
+      "date": {
+        "type": "String"
+      }
+    }
+  },
+  "statusReserved": "Reserved",
+  "statusFull": "Full",
+  "statusClosed": "Closed",
+  "statusDeadline": "Booking closed",
+  "statusUnavailable": "Unavailable",
+  "myReservations": "My reservations",
+  "showQr": "Show QR code",
+  "qrHint": "Show this code at the restaurant",
+  "ingredients": "Ingredients",
+  "allergens": "Allergens",
+  "weeklyMenu": "Weekly menu",
+  "rateMeal": "Rate this meal",
+  "comment": "Comment (optional)",
+  "send": "Send",
+  "thanksRating": "Thanks for your feedback",
+  "close": "Close",
+  "no": "No",
+  "yes": "Yes",
+  "attended": "Attended",
+  "cancelled": "Cancelled",
+  "errDeadline": "The deadline has passed.",
+  "errFull": "Fully booked.",
+  "errAlready": "You already have an active booking.",
+  "errUnavailable": "Not available.",
+  "errNotEligible": "You can only rate services you used.",
+  "errTooEarly": "You can rate after it takes place.",
+  "loadMore": "Load more",
+  "noMeals": "No meals scheduled",
+  "breakfast": "Breakfast",
+  "lunch": "Lunch",
+  "dinner": "Dinner",
+  "remainingPlaces": "{n} left",
+  "@remainingPlaces": {
+    "placeholders": {
+      "n": {
+        "type": "int"
+      }
+    }
+  },
+  "transportLines": "Bus lines",
+  "liveBuses": "Live buses",
+  "todaysDepartures": "Today's departures",
+  "stops": "Stops",
+  "etaTitle": "Estimated arrival",
+  "etaMinutes": "{n} min",
+  "@etaMinutes": {
+    "placeholders": {
+      "n": {
+        "type": "int"
+      }
+    }
+  },
+  "etaApprox": "Approximate, based on the bus's current position.",
+  "noBusLive": "No bus is reporting its position right now.",
+  "lastUpdate": "Updated {ago} ago",
+  "@lastUpdate": {
+    "placeholders": {
+      "ago": {
+        "type": "String"
+      }
+    }
+  },
+  "speedKmh": "{n} km/h",
+  "@speedKmh": {
+    "placeholders": {
+      "n": {
+        "type": "int"
+      }
+    }
+  },
+  "plate": "Plate",
+  "statusStale": "Signal lost",
+  "rateService": "Rate this service",
+  "noDepartures": "No departures today",
+  "busesLive": "{n} live",
+  "@busesLive": {
+    "placeholders": {
+      "n": {
+        "type": "int"
+      }
+    }
+  },
+  "noRoutes": "No bus lines yet",
+  "searchHint": "Search",
+  "filterAll": "All",
+  "upcoming": "Upcoming",
+  "past": "Past",
+  "registerAction": "Register",
+  "cancelRegistration": "Cancel registration",
+  "registerSuccess": "You are registered",
+  "registrationCancelled": "Registration cancelled",
+  "registerBefore": "Register before {date}",
+  "@registerBefore": {
+    "placeholders": {
+      "date": {
+        "type": "String"
+      }
+    }
+  },
+  "statusRegistered": "Registered",
+  "statusRegClosed": "Registration closed",
+  "noActivities": "No activities found",
+  "myActivities": "My activities",
+  "rateActivity": "Rate this activity",
+  "locationLabel": "Location",
+  "typeCultural": "Cultural",
+  "typeSports": "Sports",
+  "typeWorkshop": "Workshop",
+  "typeConference": "Conference",
+  "typeCompetition": "Competition",
+  "typeOther": "Other",
+  "searchBooks": "Search title, author or ISBN",
+  "availableOnly": "Available only",
+  "copiesAvailable": "{n} available",
+  "outOfStock": "Unavailable",
+  "reserveBook": "Reserve this book",
+  "bookReserved": "Book reserved",
+  "notifyMe": "Notify me when available",
+  "notifyMeOn": "We will notify you",
+  "notifyMeOff": "Notification removed",
+  "myBooks": "My book reservations",
+  "author": "Author",
+  "isbn": "ISBN",
+  "category": "Category",
+  "statusCollected": "Collected",
+  "statusReturned": "Returned",
+  "errLimit": "You reached the limit of 5 active books.",
+  "errAvailableNow": "The book is available now: you can reserve it.",
+  "noBooks": "No books found",
+  "pickUpAt": "Pick up at the library",
+  "@copiesAvailable": {
+    "placeholders": {
+      "n": {
+        "type": "int"
+      }
+    }
+  },
+  "healthCenter": "Health center",
+  "doctors": "Doctors",
+  "medicalDocuments": "Medical documents",
+  "uploadDocument": "Upload a document",
+  "docMedicalCertificate": "Medical certificate",
+  "docSickLeave": "Sick leave",
+  "docPending": "Pending",
+  "docUnderReview": "Under review",
+  "docApproved": "Approved",
+  "docRejected": "Rejected",
+  "docOverdue": "Overdue",
+  "reviewWithin72": "The document must be reviewed within 72 hours.",
+  "hoursLeft": "{n} h left",
+  "@hoursLeft": {
+    "placeholders": {
+      "n": {
+        "type": "int"
+      }
+    }
+  },
+  "rejectionReason": "Reason: {reason}",
+  "@rejectionReason": {
+    "placeholders": {
+      "reason": {
+        "type": "String"
+      }
+    }
+  },
+  "reviewerComment": "Comment: {comment}",
+  "@reviewerComment": {
+    "placeholders": {
+      "comment": {
+        "type": "String"
+      }
+    }
+  },
+  "chooseFile": "Choose a file (PDF, JPG, PNG, max 5 MB)",
+  "uploadSuccess": "Document uploaded",
+  "noDocuments": "No documents yet",
+  "openNow": "Open",
+  "closedNow": "Closed",
+  "noDoctors": "No doctors listed",
+  "office": "Office",
+  "sensitiveNote": "Medical documents are private: only you and the health center can see them.",
+  "errFileTooLarge": "The file is larger than 5 MB.",
+  "errFileType": "Only PDF, JPG or PNG files are accepted.",
+  "selectType": "Document type",
+  "openingHours": "Opening hours",
+  "noCenter": "Health center information is not available yet",
+  "upload": "Upload",
+  "myResidence": "My residence",
+  "roomLabel": "Room",
+  "buildingLabel": "Building",
+  "servicesLabel": "Services",
+  "noResidence": "You have not been assigned to a residence yet",
+  "residenceMeals": "Residence meals",
+  "newComplaint": "New complaint",
+  "complaintCategory": "Category",
+  "complaintSubject": "Subject",
+  "complaintDescription": "Describe the problem",
+  "attachments": "Attachments",
+  "addAttachment": "Add a file (max 3)",
+  "submitComplaint": "Submit complaint",
+  "complaintSent": "Your complaint was sent",
+  "myComplaints": "My complaints",
+  "noComplaints": "You have no complaints",
+  "statusNew": "New",
+  "statusReceived": "Received",
+  "statusInProgress": "In progress",
+  "statusResolved": "Resolved",
+  "categoryOther": "Other",
+  "conversation": "Conversation",
+  "writeReply": "Write a reply",
+  "reportProblem": "Report a problem",
+  "complaintClosed": "This complaint is closed",
+  "staffLabel": "Administration",
+  "you": "You",
+  "fileCount": "{n} file(s)",
+  "@fileCount": {
+    "placeholders": {
+      "n": {
+        "type": "int"
+      }
+    }
+  },
+  "openAttachment": "Open attachment",
+  "errClosed": "This complaint is closed.",
+  "errTooMany": "You reached today's limit of complaints.",
+  "complaintHelp": "Your complaint goes to the team in charge. A person always makes the final decision.",
+  "minChars": "At least {n} characters",
+  "@minChars": {
+    "placeholders": {
+      "n": {
+        "type": "int"
+      }
+    }
+  },
+  "add": "Add",
+  "edit": "Edit",
+  "delete": "Delete",
+  "save": "Save",
+  "cancelAction": "Cancel",
+  "actions": "Actions",
+  "confirmDeleteTitle": "Delete this item?",
+  "confirmDeleteBody": "This action cannot be undone from the app.",
+  "savedOk": "Saved",
+  "deletedOk": "Deleted",
+  "pageInfo": "{from}-{to} of {total}",
+  "noData": "No data",
+  "refresh": "Refresh",
+  "copied": "Copied",
+  "fName": "Name",
+  "fDescription": "Description",
+  "fTitle": "Title",
+  "fDate": "Date",
+  "fTime": "Time",
+  "fStart": "Start",
+  "fEnd": "End",
+  "fCapacity": "Capacity",
+  "fImageUrl": "Image URL (https)",
+  "fAvailable": "Available",
+  "fPublished": "Published",
+  "fIsOpen": "Open",
+  "fRestaurant": "Restaurant",
+  "fRoute": "Route",
+  "fDriver": "Driver",
+  "fPhone": "Phone",
+  "fLicense": "License number",
+  "fLatitude": "Latitude",
+  "fLongitude": "Longitude",
+  "fOrder": "Order",
+  "fDeparture": "Departure",
+  "fDays": "Days",
+  "fDeadline": "Registration deadline",
+  "fPath": "Path (JSON [[lat,lng],...])",
+  "fSpecialty": "Specialty",
+  "fPhotoUrl": "Photo URL (https)",
+  "fCover": "Cover URL (https)",
+  "fQuantity": "Quantity",
+  "fRole": "Role",
+  "fActive": "Active",
+  "fType": "Type",
+  "fStatus": "Status",
+  "fLanguage": "Language",
+  "fPassword": "Password (optional)",
+  "fPasswordHint": "Empty = an invitation e-mail is sent",
+  "fResidence": "Residence",
+  "fBuilding": "Building",
+  "fHealthCenter": "Health center",
+  "fSchedule": "Schedule",
+  "fRoom": "Room",
+  "fStudent": "Student",
+  "fBook": "Book",
+  "fCreated": "Created",
+  "fAddItem": "Add",
+  "dStudents": "Students",
+  "dActiveAdmins": "Active admins",
+  "dRestaurants": "Restaurants",
+  "dBuses": "Buses",
+  "dActivities": "Activities",
+  "dBooks": "Library books",
+  "dMedicalDocs": "Medical documents",
+  "dComplaints": "Complaints",
+  "dPending": "Pending complaints",
+  "dHighPriority": "High priority",
+  "dOverdueMedical": "Overdue medical reviews",
+  "dByStatus": "Complaints by status",
+  "dByCategory": "Complaints by department",
+  "dByPriority": "Complaints by priority",
+  "dAvgResolution": "Average resolution time",
+  "dHours": "{n} h",
+  "dTopProblems": "Most frequent problems",
+  "dAvgRating": "Average service rating",
+  "dRecurring": "Recurring problems",
+  "dLast30": "Last 30 days",
+  "priLow": "Low",
+  "priMedium": "Medium",
+  "priHigh": "High",
+  "priCritical": "Critical",
+  "mStudents": "Students",
+  "mAdmins": "Administrators",
+  "mMeals": "Meals",
+  "mReservations": "Reservations",
+  "mScan": "QR check-in",
+  "mRatings": "Ratings",
+  "mRoutes": "Routes",
+  "mStops": "Stops",
+  "mSchedules": "Schedules",
+  "mBuses": "Buses",
+  "mDrivers": "Drivers",
+  "mBuildings": "Buildings",
+  "mRooms": "Rooms",
+  "mBooks": "Books",
+  "mBookReservations": "Book reservations",
+  "mMedicalReview": "Medical documents",
+  "mBroadcast": "Send notification",
+  "mAudit": "Audit logs",
+  "mHealthCheck": "System status",
+  "mResidences": "Residences",
+  "mHealthCenter": "Health center",
+  "mResidenceMeals": "Residence meals",
+  "mResidenceRestaurants": "Residence restaurants",
+  "mResidenceActivities": "Residence activities",
+  "gServices": "Services",
+  "gPeople": "People",
+  "gSystem": "System",
+  "rSuper": "Super admin",
+  "rRestaurant": "Restaurant admin",
+  "rTransport": "Transport admin",
+  "rActivities": "Activities admin",
+  "rResidence": "Residence admin",
+  "rHealth": "Health admin",
+  "rLibrary": "Library admin",
+  "rComplaints": "Complaints admin",
+  "resetPassword": "Send password reset",
+  "resetSent": "Reset e-mail sent",
+  "disable": "Disable",
+  "enable": "Enable",
+  "importCsv": "Import CSV",
+  "importHint": "Columns: email, fullName, registrationNumber, faculty, major, studyYear",
+  "importResult": "{created} created, {failed} failed",
+  "sendInvites": "Send invitation e-mails",
+  "chooseCsv": "Choose a CSV file",
+  "rowsReady": "{n} rows ready",
+  "startImport": "Start import",
+  "rowLabel": "Row {n}",
+  "aAction": "Action",
+  "aModule": "Module",
+  "aAdmin": "Admin",
+  "aResource": "Resource",
+  "hcUp": "Operational",
+  "hcDown": "Down",
+  "hcDatabase": "Database",
+  "hcStorage": "File storage",
+  "hcAuth": "Authentication",
+  "hcPush": "Push notifications",
+  "hcAi": "Smart complaints (AI)",
+  "hcJobs": "Background jobs",
+  "hcConfigured": "Configured",
+  "hcNotConfigured": "Not configured",
+  "hcLatency": "{n} ms",
+  "bAudience": "Audience",
+  "bStudents": "All students",
+  "bAdmins": "All administrators",
+  "bResidence": "One residence",
+  "bTitle": "Title",
+  "bBody": "Message",
+  "bSend": "Send",
+  "bSent": "Sent to {n} people",
+  "ciPriority": "Priority",
+  "ciAssignToMe": "Assign to me",
+  "ciUnassign": "Unassign",
+  "ciAssigned": "Assigned",
+  "ciInternal": "Internal note (not visible to the student)",
+  "ciSendReply": "Send",
+  "ciAiSuggestion": "Smart analysis (suggestion only)",
+  "ciSuggestedDept": "Suggested department",
+  "ciTopic": "Topic",
+  "ciRecurring": "Recurring problem",
+  "ciSimilar": "Similar complaints",
+  "ciSimilarNone": "None found",
+  "ciDuplicate": "Possible duplicate",
+  "ciStatus": "Change status",
+  "ciStudent": "Student",
+  "ciOnlyRecurring": "Recurring only",
+  "ciSortPriority": "By priority",
+  "ciSortNewest": "Newest",
+  "ciSortOldest": "Oldest",
+  "ciLocked": "Set by an admin: the AI will not change it",
+  "ciSource": "Analysis: {src}",
+  "ciAllAssign": "Everyone",
+  "ciUnassigned": "Unassigned",
+  "ciMine": "Assigned to me",
+  "mdOpenFile": "Open document",
+  "mdStartReview": "Start review",
+  "mdApprove": "Approve",
+  "mdReject": "Reject",
+  "mdReason": "Rejection reason (required)",
+  "mdComment": "Comment (optional)",
+  "mdEscalate": "Escalate to super admin",
+  "mdEscalated": "Escalated",
+  "mdOverdueOnly": "Overdue only",
+  "mdDeadline": "Review deadline",
+  "mdDone": "Updated",
+  "mdSensitive": "Sensitive medical data. Every access is recorded in the audit log.",
+  "scQr": "QR code",
+  "scCheckIn": "Check in",
+  "scMeal": "Meal",
+  "scActivity": "Activity",
+  "scOk": "{name} · {item}",
+  "scHint": "Scan with a barcode reader or paste the code, then press Enter.",
+  "scErrInvalid": "Invalid QR code",
+  "scErrUsed": "Already used",
+  "scErrDay": "This code is for another day",
+  "scErrInactive": "Reservation is not active",
+  "rtAverage": "Average",
+  "rtCount": "{n} ratings",
+  "acRegistrations": "Registrations",
+  "acPublish": "Publish",
+  "acUnpublish": "Unpublish",
+  "bkCollect": "Mark as collected",
+  "bkReturn": "Mark as returned",
+  "bkRelease": "Cancel reservation",
+  "adminOnlyWeb": "Administration",
+  "@pageInfo": {
+    "placeholders": {
+      "from": {
+        "type": "int"
+      },
+      "total": {
+        "type": "int"
+      },
+      "to": {
+        "type": "int"
+      }
+    }
+  },
+  "@dHours": {
+    "placeholders": {
+      "n": {
+        "type": "int"
+      }
+    }
+  },
+  "@importResult": {
+    "placeholders": {
+      "created": {
+        "type": "int"
+      },
+      "failed": {
+        "type": "int"
+      }
+    }
+  },
+  "@rowsReady": {
+    "placeholders": {
+      "n": {
+        "type": "int"
+      }
+    }
+  },
+  "@rowLabel": {
+    "placeholders": {
+      "n": {
+        "type": "int"
+      }
+    }
+  },
+  "@hcLatency": {
+    "placeholders": {
+      "n": {
+        "type": "int"
+      }
+    }
+  },
+  "@bSent": {
+    "placeholders": {
+      "n": {
+        "type": "int"
+      }
+    }
+  },
+  "@ciSource": {
+    "placeholders": {
+      "src": {
+        "type": "String"
+      }
+    }
+  },
+  "@scOk": {
+    "placeholders": {
+      "name": {
+        "type": "String"
+      },
+      "item": {
+        "type": "String"
+      }
+    }
+  },
+  "@rtCount": {
+    "placeholders": {
+      "n": {
+        "type": "int"
+      }
+    }
+  },
+  "sortBy": "Sort by",
+  "mDashboardReports": "Dashboard",
+  "scResult": "Checked in",
+  "ratingsFor": "Ratings for",
+  "noRatings": "No ratings yet",
+  "followRoute": "Follow this line",
+  "unfollowRoute": "Stop following",
+  "followHint": "Follow a line in Transport to see its next bus here",
+  "followingNow": "You follow this line",
+  "followStopped": "You no longer follow this line",
+  "nextBusNoSchedule": "No schedule for this line",
+  "departsInMin": "{time} (in {n} min)",
+  "departsDays": "{time} (+{n} d)",
+  "changePhoto": "Change photo",
+  "removePhoto": "Remove photo",
+  "fromGallery": "Choose from gallery",
+  "fromCamera": "Take a photo",
+  "photoUpdated": "Photo updated",
+  "offlineActionsOff": "Offline: reservations are disabled until you reconnect",
+  "biometricUnlock": "Unlock with biometrics",
+  "biometricReason": "Unlock Student Guide",
+  "unlock": "Unlock",
+  "biometricUnavailable": "Biometrics are not available on this device",
+  "usePassword": "Use password instead",
+  "@departsInMin": {
+    "placeholders": {
+      "time": {
+        "type": "String"
+      },
+      "n": {
+        "type": "int"
+      }
+    }
+  },
+  "@departsDays": {
+    "placeholders": {
+      "time": {
+        "type": "String"
+      },
+      "n": {
+        "type": "int"
+      }
+    }
+  }
+}
